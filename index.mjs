@@ -31,6 +31,8 @@ try {
   );
 
   await fs.writeFile("index.pdf", pdf);
+} catch (e) {
+  console.error(e);
 } finally {
   await browser.close();
 }
