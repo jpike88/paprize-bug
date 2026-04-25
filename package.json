@@ -1,0 +1,26 @@
+{
+  "name": "paprize-bug",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/jpike88/paprize-bug#readme",
+  "bugs": {
+    "url": "https://github.com/jpike88/paprize-bug/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpike88/paprize-bug.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@paprize/core": "^0.2.0",
+    "@paprize/puppeteer": "^0.2.0",
+    "@types/node": "^25.6.0",
+    "puppeteer": "^24.42.0"
+  }
+}
